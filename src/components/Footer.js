@@ -5,7 +5,7 @@ import {FaHome} from 'react-icons/fa'
 import {ImBlog} from 'react-icons/im'
 import {MdPermContactCalendar} from 'react-icons/md'
 import {RxResume} from 'react-icons/rx'
-
+import moment from 'moment';
 
 const Footer = () => {
     return (
@@ -19,6 +19,9 @@ const Footer = () => {
                 </div>
                 <div>
                     <SocialLinks/>
+                </div>
+                <div>
+                    <b>{moment().format('MMMM Do YYYY dddd, h:mm a')}</b>
                 </div>
                 <div>
                     <p>Copyright ©2022 All right reserved by Talha Tarique</p>

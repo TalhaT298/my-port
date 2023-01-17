@@ -3,7 +3,7 @@ import profile from '../../../assets/images/talha.jpeg'
 import TextTransition, { presets } from "react-text-transition";
 import { Link } from 'react-router-dom';
 import SocialLinks2 from '../../../components/SocialLinks2';
-
+import moment from 'moment';
 
 
 const TopBanner = () => {
